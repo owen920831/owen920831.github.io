@@ -54,23 +54,23 @@ nav {
 	font-size: 2vh;
 	line-height: 3vh;
 }
-
+/* 
 nav > ul {
     background-color: rgb(196, 192, 192);
-    list-style: none;   /* 移除項目符號 */
+    list-style: none;   
     margin: 0;
     padding: 0;
 }
 nav a {
-    color: inherit; /* 移除超連結顏色 */
+    color: inherit; 
     font-size: 1.2rem;
-    text-decoration: none;  /* 移除超連結底線 */
+    text-decoration: none;  
 }
 
 nav a:hover {
     background-color: rgb(115, 115, 115);
     color: white;
-}
+} */
 
 article {
 	margin: 1.5vh 0;
