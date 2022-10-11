@@ -4,6 +4,32 @@
 		<title>Expository Essay Analysis: Example</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
+		<style>
+			span.joint {
+				color: #a6611a;
+			}
+
+			span.vocab {
+				padding: 0 4px;
+				border-radius: 2px;
+				background-color: #c2ec1b;
+				color: rgb(251, 149, 149);
+			}
+
+			span.vocab > span {
+				display: none;
+				position: fixed;
+				top: 50%;
+				border-radius: 2px;
+				background-color: #dfc27d;
+				color: #000a16;
+				opacity: 0.8;
+			}
+
+			span.vocab:hover > span {
+				display: block;
+			}
+		</style>
 	</head>
 	<body>
 		<nav>
@@ -176,7 +202,7 @@
                 </p>
 
                 <p>
-                    By late afternoon, Dr. York and his team had burned about 13 acres, and he sat down for a breather. His face was slick with sweat and grime. The forest smoldered all around him.
+                    By late <span class="vocab">afternoon<span><b>"afternoon"</b> - just afternoon。</span></span>, Dr. York and his team had burned about 13 acres, and he sat down for a breather. His face was slick with sweat and grime. The forest smoldered all around him.
                 </p>
 
                 <p>
